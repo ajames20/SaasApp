@@ -67,6 +67,8 @@ h3 {
   color: darken(#ACBAAC, 37%);
   font-weight: 200;
   opacity: 1;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -90,4 +92,8 @@ h3 {
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
+}
+
+.spacer {
+  margin-right: .2em;
 }
