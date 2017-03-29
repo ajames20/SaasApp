@@ -39,30 +39,30 @@ h3 {
   padding-bottom: 100px;
 }
 
-.navbar-default .navbar-brand {
-  color: #FFF;
-  text-transform: uppercase;
+// Nav Styles
+.navbar {
+  border: none;
 }
 
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a {
-  color: #FFF;
+  color: white;
+  text-transform: uppercase;
+  &:hover {
+    color: white;
+    opacity: 0.75;
+  }
 }
 
-.navbar-default .navbar-brand:hover {
-  color: #FFF;
-  opacity: 0.75;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-  color: #FFF;
-  opacity: 0.75;
+// Home Page Styles
+.home-callout {
+  color: white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .darker {
   color: darken(#ACBAAC, 37%);
   font-weight: 200;
-}
-
-.navbar {
-  border: none;
 }
