@@ -13,11 +13,11 @@
  *= require_tree .
  *= require_self
  */
-
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
 body {
   background-color: #F2F2F2;
 }
@@ -29,8 +29,8 @@ h3 {
   font-weight: 300;
 }
 
-.navbar,
-.home-callout {
+.home-callout,
+.navbar {
   background: #abbaab;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #abbaab, #ffffff);
@@ -44,26 +44,26 @@ h3 {
   padding-top: 50px;
   padding-bottom: 100px;
 }
-
 // Nav Styles
 .navbar {
   border: none;
 }
 
 .navbar-default .navbar-brand,
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
   color: #FFF;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
+
   &:hover {
     color: #FFF;
     opacity: 0.75;
   }
 }
 
-.navbar>.container .navbar-brand,
-.navbar>.container-fluid .navbar-brand {
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
   color: darken(#ACBAAC, 37%);
   font-weight: 200;
   opacity: 1;
@@ -77,8 +77,9 @@ h3 {
 
 .navbar-default .navbar-toggle {
   border: 1px solid #FFF;
-  &:hover,
-  &:focus {
+
+  &:focus,
+  &:hover {
     background-color: #abbaab;
   }
 }
@@ -86,7 +87,6 @@ h3 {
 .navbar-default .navbar-toggle .icon-bar {
   height: 1px;
 }
-
 // Home Page Styles
 .home-callout {
   margin-top: -20px;
@@ -95,5 +95,5 @@ h3 {
 }
 
 .spacer {
-  margin-right: .2em;
+  margin-right: 0.2em;
 }
