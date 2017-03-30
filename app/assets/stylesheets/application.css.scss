@@ -150,6 +150,23 @@ h4 {
   }
 }
 
+.btn-danger {
+  color: #FFF;
+  background-color: #EBA5A3;
+  border-color: #ccc;
+
+  &:active,
+  &:active:focus,
+  &:active:hover,
+  &:focus,
+  &:hover {
+    color: #f0f0f0;
+    background-color: darken(#EBA5A3, 3%);
+    border-color: #ccc;
+    outline: 0;
+  }
+}
+
 .home-signup-links {
   margin-top: 30px;
 }
