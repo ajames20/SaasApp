@@ -93,10 +93,18 @@ h4 {
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
+
+  h1 {
+    padding-top: 0.5em;
+  }
 }
 
 .spacer {
   margin-right: 0.2em;
+}
+
+.well {
+  background-color: #fff;
 }
 
 .btn-default {
@@ -182,4 +190,6 @@ h4 {
   background: rgba(255, 255, 255, 0.3);
   border-color: rgba(255, 255, 255, 0.5);
   margin-top: -14px;
+  width: 50%;
+  margin: 0 auto;
 }
