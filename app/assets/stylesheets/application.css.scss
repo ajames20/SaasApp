@@ -20,6 +20,11 @@
 
 body {
   background-color: #F2F2F2;
+  background: #abbaab;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #abbaab, #F2F2F2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #abbaab, #F2F2F2);
 }
 
 h1,
@@ -112,7 +117,7 @@ h4 {
 }
 
 .well {
-  background-color: #fff;
+  background-color: #FAFAFA;
 }
 
 .btn-default {
