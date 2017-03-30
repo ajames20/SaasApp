@@ -44,6 +44,11 @@ h3 {
   border: none;
 }
 
+.navbar-collapse {
+  border-top: 0;
+  box-shadow: 0 0 0;
+}
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: #FFF;
@@ -91,4 +96,20 @@ h3 {
 
 .spacer {
   margin-right: 0.2em;
+}
+
+.btn-default {
+  color: #FFF;
+  background-color: #D6DCD6;
+  border-color: #ccc;
+
+  &:active,
+  &:active:focus,
+  &:active:hover,
+  &:focus,
+  &:hover {
+    background-color: #D6DCD6;
+    border-color: #ccc;
+    outline: 0;
+  }
 }
