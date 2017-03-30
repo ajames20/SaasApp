@@ -89,6 +89,14 @@ h4 {
   height: 1px;
 }
 
+.navbar-nav {
+  display: flex;
+  flex-direction: column-reverse;
+  @media (min-width: 768px) {
+    flex-direction: row-reverse;
+  }
+}
+
 .home-callout {
   margin-top: -20px;
   padding-top: 50px;
