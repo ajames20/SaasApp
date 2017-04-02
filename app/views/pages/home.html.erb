@@ -12,7 +12,7 @@
         <%= link_to "Edit your profile", edit_user_profile_path(user_id: current_user.id), class: 'btn btn-primary btn-lg btn-block' %>
         <%= link_to "View your profile", user_path(id: current_user.id), class: 'btn btn-success btn-lg btn-block' %>
       <% else %>
-        <p>Create your Profile so you can share your information with the community.</p>
+        <h4>Create your Profile so you can share your information with the community.</h4><br/>
         <%= link_to "Create your profile!", new_user_profile_path(user_id: current_user.id), class: 'btn btn-success btn-lg btn-block' %>
         <% end %>
       </div>
@@ -20,7 +20,7 @@
     <div class="col-md-6">
       <div class="well">
         <h2 class="text-center">The Community</h2>
-        <p>Visit the community to meet other developers, entrepreneurs, and investors.</p><br/>
+        <h4>Visit the community to meet other developers, entrepreneurs, and investors.</h4><br/>
         <%= link_to "Visit the Community ", users_path, class: 'btn btn-success btn-lg btn-block' %>
 
       </div>
@@ -42,7 +42,6 @@
         <%= link_to "Sign up with Pro", new_user_registration_path(plan: @pro_plan.id), class: 'btn btn-success btn-lg btn-block' %>
       </div>
     </div>
-
     <% end %>
   </div>
 </div>
