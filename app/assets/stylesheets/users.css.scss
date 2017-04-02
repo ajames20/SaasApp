@@ -1,8 +1,20 @@
 .user-profile {
   h1,
   h3 {
-    color: darken(#87a890, 5%);
+    color: #789D82;
   }
+}
+
+.job-title-icon {
+  color: #FFF;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: lighten(#789D82, 5%);
+  border: 1px solid #789D82;
+  border-radius: 4px;
+  text-align: center;
+  margin-right: 4px;
 }
 
 .align {

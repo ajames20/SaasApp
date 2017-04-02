@@ -6,12 +6,14 @@
     <div class="col-md-6 align">
       <h1><%= @user.profile.first_name %>
         <%= @user.profile.last_name %></h1>
-      <h3><%= @user.profile.job_title %></h3>
+      <h3>
+        <span class="job-title-icon"><%= job_title_icon %>
+        </span><%= @user.profile.job_title %></h3>
       <div class="well profile-block">
         <h4>Description</h4>
         <%= @user.profile.description %>
       </div>
-      <% if true #current_user.plan_id == 2 %>
+      <% if current_user.plan_id == 2 %>
 
       <div class="well profile-block">
         <h4>Contact Information</h4>
