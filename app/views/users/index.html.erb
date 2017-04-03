@@ -7,7 +7,7 @@
         <% @users.each do |user| %>
         <% if user.profile %>
         <li>
-          <div id="well" class="well row <%= cycle('grey-bg', '') %>">
+          <div id="well" class="well row align <%= cycle('grey-bg', '') %>">
             <div class="col-sm-4 text-center">
               <% if user.profile.avatar %>
               <%= link_to user do %>
