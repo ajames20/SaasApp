@@ -120,6 +120,16 @@ h4 {
   background-color: #FAFAFA;
 }
 
+.navbar-btn {
+  width: 80%;
+  margin: 0 auto;
+  @media (min-width: 768px) {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
+
 .btn-default {
   color: #FFF;
   background-color: #C0CAC0;
